@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this software, please consider citing the reference paper and the version of the THOR code used."
+authors:
+- family-names: Moeyens
+  given-names: Joachim
+  orcid: "https://orcid.org/0000-0001-5820-3925"
+- family-names: Juric
+  given-names: Mario
+  orcid: "https://orcid.org/0000-0003-1996-9252"
+- family-names: Nelson
+  given-names: Spencer
+title: "Tracklet-Less Heliocentric Orbit Recovery"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: Moeyens
+    given-names: Joachim
+    orcid: "https://orcid.org/0000-0001-5820-3925"
+  - family-names: Juric
+    given-names: Mario
+    orcid: "https://orcid.org/0000-0003-1996-9252"
+  - family-names: Ford
+    given-names: Jes
+    orcid: "https://orcid.org/0000-0002-2946-3776"
+  - family-names: Bektesevic
+    given-names: Dino
+    orcid: "https://orcid.org/0000-0002-1312-5529"
+  - family-names: Connolly
+    given-names: Andrew
+    orcid: "https://orcid.org/0000-0001-5576-8189"
+  - family-names: Eggl
+    given-names: Siegfried
+    orcid: "https://orcid.org/0000-0002-1398-6302"
+  - family-names: Ivezic
+    given-names: Zeljko
+    orcid: "https://orcid.org/0000-0001-5250-2633"
+  - family-names: Jones
+    given-names: R. Lynne
+    orcid: "https://orcid.org/0000-0001-5916-0031"
+  - family-names: Kalmbach
+    given-names: J. Bryce
+    orcid: "https://orcid.org/0000-0002-6825-5283"
+  - family-names: Smotherman
+    given-names: Hayden
+    orcid: "https://orcid.org/0000-0002-7895-4344"
+  doi: "10.3847/1538-3881/ac042b"
+  journal: "The Astronomical Journal"
+  month: 9
+  start: 143
+  title: "THOR: An Algorithm for Cadence-independent Asteroid Discovery"
+  issue: 4
+  volume: 162
+  year: 2021
