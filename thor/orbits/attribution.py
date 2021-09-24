@@ -452,6 +452,27 @@ def mergeAndExtendOrbits(
             linkage_id_col="orbit_id"
         )
 
+        # Execute one last differential correction to update any orbit fits that
+        # had observations removed by removeDuplicateObservations
+        odp_orbits, odp_orbit_members = differentialCorrection(
+                odp_orbits,
+                odp_orbit_members,
+                observations,
+                rchi2_threshold=rchi2_threshold,
+                min_obs=min_obs,
+                min_arc_length=min_arc_length,
+                contamination_percentage=contamination_percentage,
+                delta=delta,
+                method=method,
+                max_iter=max_iter,
+                fit_epoch=False,
+                backend=backend,
+                backend_kwargs=backend_kwargs,
+                chunk_size=orbits_chunk_size,
+                num_jobs=num_jobs,
+                parallel_backend=parallel_backend
+        )
+
     else:
         odp_orbits = pd.DataFrame(
             columns=[
